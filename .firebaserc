@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "rex-chatbot-8efac",
+    "test": "rex-chatbot-8efac"
+  },
+  "targets": {},
+  "etags" : {}
+}
