@@ -13,3 +13,4 @@ I would like to acknowledge the Radical AI Team for their tutorial videos.
 # Some Snapshots
 
 ## Project Submission
+![Project Submission Video](public/QuantumBot%20Core%20Project%20Submission.mp4)

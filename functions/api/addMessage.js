@@ -5,11 +5,11 @@ const {logger} = functions;
 
 exports.addMessage = functions.https.onCall(async (data, context) =>{
   try {
-    logger.logger("Received message request data:", data);
+    logger.log("Received message request data:", data);
 
     // validate required fields
     if (!data.text || !data.userId) {
-      logger.logger("Required fields (text or userId) are missing");
+      logger.log("Required fields (text or userId) are missing");
       throw new functions.https.HttpsError(
           "invalid-argument",
           "Required fields (text or userId) are missing",
